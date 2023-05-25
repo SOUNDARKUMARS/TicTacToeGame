@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-color: rgb(34, 34, 38);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#gameBoard{
+ width: 456px;
+height: 456px;
+background-color: black;
+display:flex;
+flex-wrap: wrap;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 25px solid blue;
+
+}
+.cross{
+    height: 60px;
+    width: 60px;
+    border: 20px solid rgb(255, 0, 0);
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color: rgb(112, 101, 101);
+  }
+p{
+    font-family: 'Righteous', cursive;
+    color: rgb(196, 51, 51);
+  }
